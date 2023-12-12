@@ -11,7 +11,6 @@ public class PlayerController : MonoBehaviour
     [Header("Main")]
     [SerializeField] Transform Camera;
     [SerializeField] float walkingSpeed = 3.0f;
-    [SerializeField] float CroughSpeed = 1.0f;
     [SerializeField] float RuningSpeed = 5.0f;
     [SerializeField] float jumpSpeed = 6.0f;
     [SerializeField] float lookSpeed = 2.0f;
@@ -20,7 +19,6 @@ public class PlayerController : MonoBehaviour
     [Header("Advance")]
     [SerializeField] float RunningFOV = 65.0f;
     [SerializeField] float SpeedToFOV = 4.0f;
-    [SerializeField] float CroughHeight = 0.5f;
     [SerializeField] float gravity = 20.0f;
     private bool canMove = true;
     [Space(20)]

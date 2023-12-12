@@ -43,19 +43,19 @@ public class PlayerInteract : MonoBehaviour {
         switch (interactingNpcsType)
         {
             case NPC.NpcType.Alcoholic:
-                interactingNPC.emotion = NPC.NpcEmotion.Happy;
+                interactingNPC.Emotion = NPC.NpcEmotion.Happy;
                 break;
             case NPC.NpcType.Homeless:
-                interactingNPC.emotion = NPC.NpcEmotion.Neutral;
+                interactingNPC.Emotion = NPC.NpcEmotion.Neutral;
                 break;
             case NPC.NpcType.DrugAddict:
-                interactingNPC.emotion = NPC.NpcEmotion.Neutral;
+                interactingNPC.Emotion = NPC.NpcEmotion.Neutral;
                 break;
             case NPC.NpcType.Lonely:
-                interactingNPC.emotion = NPC.NpcEmotion.Sad;
+                interactingNPC.Emotion = NPC.NpcEmotion.Sad;
                 break;
         }
-        Debug.Log($"NPC's emotion: {interactingNPC.emotion.ToString()}");
+        Debug.Log($"NPC's emotion: {interactingNPC.Emotion.ToString()}");
     }
 
     public void GiveDrugs()
@@ -63,19 +63,19 @@ public class PlayerInteract : MonoBehaviour {
         switch (interactingNpcsType)
         {
             case NPC.NpcType.Alcoholic:
-                interactingNPC.emotion = NPC.NpcEmotion.Neutral;
+                interactingNPC.Emotion = NPC.NpcEmotion.Neutral;
                 break;
             case NPC.NpcType.Homeless:
-                interactingNPC.emotion = NPC.NpcEmotion.Sad;
+                interactingNPC.Emotion = NPC.NpcEmotion.Sad;
                 break;
             case NPC.NpcType.DrugAddict:
-                interactingNPC.emotion = NPC.NpcEmotion.Happy;
+                interactingNPC.Emotion = NPC.NpcEmotion.Happy;
                 break;
             case NPC.NpcType.Lonely:
-                interactingNPC.emotion = NPC.NpcEmotion.Sad;
+                interactingNPC.Emotion = NPC.NpcEmotion.Sad;
                 break;
         }
-        Debug.Log($"NPC's emotion: {interactingNPC.emotion.ToString()}");
+        Debug.Log($"NPC's emotion: {interactingNPC.Emotion.ToString()}");
     }
 
     public void GiveHat()
@@ -83,19 +83,19 @@ public class PlayerInteract : MonoBehaviour {
         switch (interactingNpcsType)
         {
             case NPC.NpcType.Alcoholic:
-                interactingNPC.emotion = NPC.NpcEmotion.Sad;
+                interactingNPC.Emotion = NPC.NpcEmotion.Sad;
                 break;
             case NPC.NpcType.Homeless:
-                interactingNPC.emotion = NPC.NpcEmotion.Happy;
+                interactingNPC.Emotion = NPC.NpcEmotion.Happy;
                 break;
             case NPC.NpcType.DrugAddict:
-                interactingNPC.emotion = NPC.NpcEmotion.Sad;
+                interactingNPC.Emotion = NPC.NpcEmotion.Sad;
                 break;
             case NPC.NpcType.Lonely:
-                interactingNPC.emotion = NPC.NpcEmotion.Sad;
+                interactingNPC.Emotion = NPC.NpcEmotion.Sad;
                 break;
         }
-        Debug.Log($"NPC's emotion: {interactingNPC.emotion.ToString()}");
+        Debug.Log($"NPC's emotion: {interactingNPC.Emotion.ToString()}");
     }
 
     public void GiveHug()
@@ -103,19 +103,19 @@ public class PlayerInteract : MonoBehaviour {
         switch (interactingNpcsType)
         {
             case NPC.NpcType.Alcoholic:
-                interactingNPC.emotion = NPC.NpcEmotion.Sad;
+                interactingNPC.Emotion = NPC.NpcEmotion.Sad;
                 break;
             case NPC.NpcType.Homeless:
-                interactingNPC.emotion = NPC.NpcEmotion.Neutral;
+                interactingNPC.Emotion = NPC.NpcEmotion.Neutral;
                 break;
             case NPC.NpcType.DrugAddict:
-                interactingNPC.emotion = NPC.NpcEmotion.Sad;
+                interactingNPC.Emotion = NPC.NpcEmotion.Sad;
                 break;
             case NPC.NpcType.Lonely:
-                interactingNPC.emotion = NPC.NpcEmotion.Happy;
+                interactingNPC.Emotion = NPC.NpcEmotion.Happy;
                 break;
         }
-        Debug.Log($"NPC's emotion: {interactingNPC.emotion.ToString()}");
+        Debug.Log($"NPC's emotion: {interactingNPC.Emotion.ToString()}");
     }
 
     public IInteractable GetInteractableObject() {

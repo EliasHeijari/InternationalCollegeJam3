@@ -5,6 +5,13 @@ using System;
 
 public class NPC : MonoBehaviour
 {
+
+    public static event EventHandler<OnEmotionChangedEventArgs> OnEmotionChanged;
+
+    public class OnEmotionChangedEventArgs : EventArgs
+    {
+        public NpcEmotion NewEmotion { get; set; }
+    }
     public enum NpcType
     {
         Alcoholic,
@@ -21,8 +28,20 @@ public class NPC : MonoBehaviour
     }
 
     public NpcType type { get; private set; }
+    private NpcEmotion emotion;
 
-    public NpcEmotion emotion { get; set; }
+    public NpcEmotion Emotion 
+    {
+        get
+        {
+            return emotion;
+        }
+        set
+        {
+            emotion = value;
+            OnEmotionChanged?.Invoke(this, new OnEmotionChangedEventArgs { NewEmotion = emotion});
+        }
+    }
 
     [SerializeField] private NpcType npcType;
 
