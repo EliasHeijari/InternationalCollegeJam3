@@ -9,8 +9,12 @@ public class NPCEmotionIcon : MonoBehaviour
     [SerializeField] private Sprite[] emotionImages;
     private void Awake()
     {
+        if (!transform.parent.parent.TryGetComponent(out NPC npc))
+        {
+            Debug.LogWarning("Couldn't get npc script from parents parent");
+        }
         iconImage = GetComponent<Image>();
-        NPC.OnEmotionChanged += NPC_OnEmotionChanged;
+        npc.OnEmotionChanged += NPC_OnEmotionChanged;
     }
 
     private void NPC_OnEmotionChanged(object sender, NPC.OnEmotionChangedEventArgs e)

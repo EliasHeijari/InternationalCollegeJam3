@@ -6,7 +6,7 @@ using System;
 public class NPC : MonoBehaviour
 {
 
-    public static event EventHandler<OnEmotionChangedEventArgs> OnEmotionChanged;
+    public event EventHandler<OnEmotionChangedEventArgs> OnEmotionChanged;
 
     public class OnEmotionChangedEventArgs : EventArgs
     {
