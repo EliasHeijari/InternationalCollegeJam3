@@ -63,8 +63,6 @@ public class PlayerController : MonoBehaviour
         Vector3 forward = transform.TransformDirection(Vector3.forward);
         Vector3 right = transform.TransformDirection(Vector3.right);
 
-        isRunning = Input.GetKey(KeyCode.LeftShift);
-
         float targetSpeed = isRunning ? RuningSpeed : walkingSpeed;
 
         // Get raw input values without multiplying by speed
@@ -76,26 +74,16 @@ public class PlayerController : MonoBehaviour
         vertical = targetSpeed * inputVector.z;
         horizontal = targetSpeed * inputVector.x;
 
-        if (isRunning && (Mathf.Abs(inputHorizontal) > 0 || Mathf.Abs(inputVertical) > 0))
-        {
-            audioSource.clip = runningClip;
-            if (!audioSource.isPlaying) audioSource.Play();
-            cam.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>().m_FrequencyGain = 3;
-        }
-        else if (isRunning)
-        {
-            audioSource.Stop();
-        }
-
-        if (!isRunning && (Mathf.Abs(inputHorizontal) > 0 || Mathf.Abs(inputVertical) > 0))
+        if ((Mathf.Abs(inputHorizontal) > 0.15f || Mathf.Abs(inputVertical) > 0.15f))
         {
             audioSource.clip = walkingClip;
             if (!audioSource.isPlaying) audioSource.Play();
+            cam.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>().m_FrequencyGain = 1.7f;
         }
-        else if (!isRunning)
+        else
         {
             audioSource.Stop();
-            cam.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>().m_FrequencyGain = 1;
+            cam.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>().m_FrequencyGain = 0.5f;
         }
 
         float movementDirectionY = moveDirection.y;
