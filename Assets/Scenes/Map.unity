@@ -3255,6 +3255,11 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: -450435477336378351, guid: 26bd75eb5e298b24c8c065aee0035a9b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 802a76361bbec814989b8de0bb7e5f26, type: 2}
     - target: {fileID: -443595348488659941, guid: 26bd75eb5e298b24c8c065aee0035a9b,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -3270,6 +3275,11 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: -413676814288031351, guid: 26bd75eb5e298b24c8c065aee0035a9b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 802a76361bbec814989b8de0bb7e5f26, type: 2}
     - target: {fileID: -279076347627243546, guid: 26bd75eb5e298b24c8c065aee0035a9b,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -3357,6 +3367,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1439941182908194079, guid: 26bd75eb5e298b24c8c065aee0035a9b,
         type: 3}
+      propertyPath: m_Color.b
+      value: 0.8018868
+      objectReference: {fileID: 0}
+    - target: {fileID: 1439941182908194079, guid: 26bd75eb5e298b24c8c065aee0035a9b,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.27536488
+      objectReference: {fileID: 0}
+    - target: {fileID: 1439941182908194079, guid: 26bd75eb5e298b24c8c065aee0035a9b,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.7912185
+      objectReference: {fileID: 0}
+    - target: {fileID: 1439941182908194079, guid: 26bd75eb5e298b24c8c065aee0035a9b,
+        type: 3}
       propertyPath: m_Intensity
       value: 1
       objectReference: {fileID: 0}
@@ -3369,6 +3394,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1696705116060060698, guid: 26bd75eb5e298b24c8c065aee0035a9b,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.7264151
+      objectReference: {fileID: 0}
+    - target: {fileID: 1696705116060060698, guid: 26bd75eb5e298b24c8c065aee0035a9b,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.20833033
+      objectReference: {fileID: 0}
+    - target: {fileID: 1696705116060060698, guid: 26bd75eb5e298b24c8c065aee0035a9b,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.72256964
+      objectReference: {fileID: 0}
+    - target: {fileID: 1696705116060060698, guid: 26bd75eb5e298b24c8c065aee0035a9b,
+        type: 3}
+      propertyPath: m_Lightmapping
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1743241784857721059, guid: 26bd75eb5e298b24c8c065aee0035a9b,
         type: 3}
@@ -3667,6 +3712,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8260972955919438430, guid: 26bd75eb5e298b24c8c065aee0035a9b,
         type: 3}
+      propertyPath: m_Color.b
+      value: 0.6886792
+      objectReference: {fileID: 0}
+    - target: {fileID: 8260972955919438430, guid: 26bd75eb5e298b24c8c065aee0035a9b,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.2689747
+      objectReference: {fileID: 0}
+    - target: {fileID: 8260972955919438430, guid: 26bd75eb5e298b24c8c065aee0035a9b,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.6735283
+      objectReference: {fileID: 0}
+    - target: {fileID: 8260972955919438430, guid: 26bd75eb5e298b24c8c065aee0035a9b,
+        type: 3}
       propertyPath: m_Intensity
       value: 1
       objectReference: {fileID: 0}
@@ -3689,6 +3749,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 9197646137054637897, guid: 26bd75eb5e298b24c8c065aee0035a9b,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.7742079
+      objectReference: {fileID: 0}
+    - target: {fileID: 9197646137054637897, guid: 26bd75eb5e298b24c8c065aee0035a9b,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.3144179
+      objectReference: {fileID: 0}
+    - target: {fileID: 9197646137054637897, guid: 26bd75eb5e298b24c8c065aee0035a9b,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.8679245
       objectReference: {fileID: 0}
     - target: {fileID: 9197646137054637897, guid: 26bd75eb5e298b24c8c065aee0035a9b,
         type: 3}
@@ -4276,10 +4351,6 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 283253344}
-    - targetCorrespondingSourceObject: {fileID: -620301549204930725, guid: 26bd75eb5e298b24c8c065aee0035a9b,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 252149124}
     - targetCorrespondingSourceObject: {fileID: -437812883538865624, guid: 26bd75eb5e298b24c8c065aee0035a9b,
         type: 3}
       insertIndex: -1
@@ -4300,10 +4371,6 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 686638111}
-    - targetCorrespondingSourceObject: {fileID: -8458976158021266764, guid: 26bd75eb5e298b24c8c065aee0035a9b,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1321841167}
     - targetCorrespondingSourceObject: {fileID: -2396342115087305087, guid: 26bd75eb5e298b24c8c065aee0035a9b,
         type: 3}
       insertIndex: -1
@@ -4509,34 +4576,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -3886617382288090656, guid: 26bd75eb5e298b24c8c065aee0035a9b, type: 3}
---- !u!1 &252149120 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: -620301549204930725, guid: 26bd75eb5e298b24c8c065aee0035a9b,
-    type: 3}
-  m_PrefabInstance: {fileID: 221079910}
-  m_PrefabAsset: {fileID: 0}
---- !u!64 &252149124
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 252149120}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 3035060924604830326, guid: 26bd75eb5e298b24c8c065aee0035a9b, type: 3}
 --- !u!64 &252849721
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -14007,6 +14046,21 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 1696705116060060698, guid: 26bd75eb5e298b24c8c065aee0035a9b,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.91633046
+      objectReference: {fileID: 0}
+    - target: {fileID: 1696705116060060698, guid: 26bd75eb5e298b24c8c065aee0035a9b,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.5764706
+      objectReference: {fileID: 0}
+    - target: {fileID: 1696705116060060698, guid: 26bd75eb5e298b24c8c065aee0035a9b,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1743241784857721059, guid: 26bd75eb5e298b24c8c065aee0035a9b,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -16900,34 +16954,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -4877246658106269459, guid: 26bd75eb5e298b24c8c065aee0035a9b, type: 3}
---- !u!1 &1321841163 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: -8458976158021266764, guid: 26bd75eb5e298b24c8c065aee0035a9b,
-    type: 3}
-  m_PrefabInstance: {fileID: 221079910}
-  m_PrefabAsset: {fileID: 0}
---- !u!64 &1321841167
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1321841163}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
 --- !u!64 &1322228490
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -23390,9 +23416,9 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: a5ba70cf02ed8ad4da4ba99d14e18b35, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.5
+  m_Volume: 0.8
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -25022,6 +25048,11 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: -450435477336378351, guid: 26bd75eb5e298b24c8c065aee0035a9b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 802a76361bbec814989b8de0bb7e5f26, type: 2}
     - target: {fileID: -443595348488659941, guid: 26bd75eb5e298b24c8c065aee0035a9b,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -25037,6 +25068,11 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: -413676814288031351, guid: 26bd75eb5e298b24c8c065aee0035a9b,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 802a76361bbec814989b8de0bb7e5f26, type: 2}
     - target: {fileID: -279076347627243546, guid: 26bd75eb5e298b24c8c065aee0035a9b,
         type: 3}
       propertyPath: m_StaticEditorFlags
@@ -25156,6 +25192,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1696705116060060698, guid: 26bd75eb5e298b24c8c065aee0035a9b,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1696705116060060698, guid: 26bd75eb5e298b24c8c065aee0035a9b,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.5764706
+      objectReference: {fileID: 0}
+    - target: {fileID: 1696705116060060698, guid: 26bd75eb5e298b24c8c065aee0035a9b,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.9992863
       objectReference: {fileID: 0}
     - target: {fileID: 1696705116060060698, guid: 26bd75eb5e298b24c8c065aee0035a9b,
         type: 3}
@@ -25501,6 +25552,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 9197646137054637897, guid: 26bd75eb5e298b24c8c065aee0035a9b,
+        type: 3}
+      propertyPath: m_Color.b
+      value: 0.8113208
+      objectReference: {fileID: 0}
+    - target: {fileID: 9197646137054637897, guid: 26bd75eb5e298b24c8c065aee0035a9b,
+        type: 3}
+      propertyPath: m_Color.g
+      value: 0.24033462
+      objectReference: {fileID: 0}
+    - target: {fileID: 9197646137054637897, guid: 26bd75eb5e298b24c8c065aee0035a9b,
+        type: 3}
+      propertyPath: m_Color.r
+      value: 0.7474534
       objectReference: {fileID: 0}
     - target: {fileID: 9197646137054637897, guid: 26bd75eb5e298b24c8c065aee0035a9b,
         type: 3}
@@ -31416,7 +31482,7 @@ Light:
   serializedVersion: 10
   m_Type: 0
   m_Shape: 0
-  m_Color: {r: 0.84786373, g: 1, b: 0.5753293, a: 1}
+  m_Color: {r: 0.7218795, g: 0.21717693, b: 0.7830189, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 151.09999
@@ -31892,8 +31958,8 @@ Light:
   serializedVersion: 10
   m_Type: 0
   m_Shape: 0
-  m_Color: {r: 0.84786373, g: 1, b: 0.5753293, a: 1}
-  m_Intensity: 10
+  m_Color: {r: 0.6782433, g: 0.18241365, b: 0.7924528, a: 1}
+  m_Intensity: 15.29
   m_Range: 10
   m_SpotAngle: 151.09999
   m_InnerSpotAngle: 21.80208
@@ -31932,7 +31998,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -31954,7 +32020,7 @@ Light:
   serializedVersion: 10
   m_Type: 0
   m_Shape: 0
-  m_Color: {r: 0.84786373, g: 1, b: 0.5753293, a: 1}
+  m_Color: {r: 0.7735849, g: 0.17807047, b: 0.7017774, a: 1}
   m_Intensity: 10
   m_Range: 10
   m_SpotAngle: 151.09999
@@ -50126,7 +50192,7 @@ Transform:
   m_GameObject: {fileID: 764395876957972081}
   serializedVersion: 2
   m_LocalRotation: {x: 0.6339542, y: -1.5478316e-17, z: -1.5478316e-17, w: 0.77337056}
-  m_LocalPosition: {x: -0.21234193, y: 3.6374984, z: -9.273022}
+  m_LocalPosition: {x: -0.21234193, y: 3.564, z: -9.273022}
   m_LocalScale: {x: 0.013898415, y: 0.013898415, z: 0.013898415}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -51253,7 +51319,7 @@ Light:
   serializedVersion: 10
   m_Type: 0
   m_Shape: 0
-  m_Color: {r: 0.84786373, g: 1, b: 0.5753293, a: 1}
+  m_Color: {r: 0.7924528, g: 0.10017798, b: 0.70078176, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 151.09999
@@ -53122,7 +53188,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5449962650655108041, guid: 26bd75eb5e298b24c8c065aee0035a9b, type: 3}
+  - {fileID: 2100000, guid: 802a76361bbec814989b8de0bb7e5f26, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -53164,7 +53230,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -5449962650655108041, guid: 26bd75eb5e298b24c8c065aee0035a9b, type: 3}
+  - {fileID: 2100000, guid: 802a76361bbec814989b8de0bb7e5f26, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -54199,7 +54265,7 @@ Light:
   serializedVersion: 10
   m_Type: 0
   m_Shape: 0
-  m_Color: {r: 0.84786373, g: 1, b: 0.5753293, a: 1}
+  m_Color: {r: 0.8313726, g: 0.1137255, b: 0.9960785, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 151.09999
