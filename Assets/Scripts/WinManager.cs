@@ -1,10 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class WinManager : MonoBehaviour
 {
     [SerializeField] private NPC[] npcs;
+    [SerializeField] private AudioSource audioSource;
 
     private void Start()
     {
@@ -32,6 +34,13 @@ public class WinManager : MonoBehaviour
 
     private void WonGame()
     {
+        audioSource.Play();
+        StartCoroutine(PlayMainMenu());
+    }
 
+    IEnumerator PlayMainMenu()
+    {
+        yield return new WaitForSeconds(2f);
+        SceneManager.LoadScene("MainMenu");
     }
 }

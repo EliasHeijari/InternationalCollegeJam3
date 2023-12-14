@@ -5,6 +5,7 @@ using UnityEngine;
 public class NPCAnimationManager : MonoBehaviour
 {
     [SerializeField] private Animator animator;
+    [SerializeField] private AudioSource audioSource;
     private void Awake()
     {
         NPC npc = GetComponent<NPC>();
@@ -26,6 +27,7 @@ public class NPCAnimationManager : MonoBehaviour
                 break;
             case NPC.NpcEmotion.Happy:
                 animator.SetTrigger("IsHappy");
+                audioSource.Play();
                 break;
             default:
                 Debug.LogWarning("Emotion was not any of the emotions");
