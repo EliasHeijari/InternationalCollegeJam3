@@ -17,6 +17,12 @@ public class MainMenu : MonoBehaviour
     private float initialBloomIntensity;
     private float elapsedTime = 0f;
 
+    private void Start()
+    {
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.Confined;
+    }
+
     public void PlayGame()
     {
         volume.profile.TryGet(out bloom);
